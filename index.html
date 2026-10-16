@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- <script>
+        // root.appendChild(document.createElement('h1')).innerText = 'Hello, World!';
+        const heading = document.createElement('h1');
+        heading.innerText = 'Hello, World!';
+        const root = document.getElementById('root');
+        root.appendChild(heading);
+    </script> -->
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> 
+    
+    <!-----
+          //it is used to load the React library from a content delivery network (CDN) in development mode. The crossorigin attribute is used to handle cross-origin requests, allowing the browser to make requests for resources from different origins while adhering to security policies. This script tag enables the use of React features and components in the web application.
+    -->
+
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<!----------
+//it is used to load the ReactDOM library from a content delivery network (CDN) in development mode. Which is use like a bridge between React and the DOM, allowing developers to render React components into the actual HTML DOM.
+
+
+-->
+
+<script src="./App.js">
+    // const root = ReactDOM.createRoot(document.getElementById('root'));
+    // root.render(React.createElement('h1', null, 'Hello, World!'));
+
+    
+</script>
+</body>
+</html>
